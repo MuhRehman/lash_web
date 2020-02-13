@@ -8,21 +8,31 @@
 body {
     background: var(--main-bg-color);
     font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
+    /* font-weight: 700; */
+    /* font-size: 1em; */
     line-height: 1.4;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     color: var(--main-txt-color);
   }
-
+  @font-face {
+    font-family: Futura;
+    src: url(Futura\ Medium.otf);
+  }
+  
+  div {
+    
+  }
   .banner {
     position: relative;
     width: 100%;
     min-height: 450px;
-    background-color: rgb(253, 246, 246);
+    background-color: #FCFCFC;
   }
 .top-bar {
     background-color: #F7A28D;
+}
+.banner-text h5{
+    font-size: 33px;
 }
 .banner-bar {
     background-color: rgb(0, 0, 0);
@@ -35,19 +45,45 @@ nav {
 }
 .top-text {
     color: var(--theme-txt-color);
+    font-size: 19px;
 }
 .middle-text {
     color: rgb(0, 0, 0);
+    font-family: Futura;
+    font-size: 14px;
 }
 .last-text {
     color: rgb(104, 103, 103);
 }
 .card-img-top {
-    height: 344px;
+    
+     height: 333px;
+  
 }
 .card-title {
     color: var(--theme-txt-color);
 }
 .card-bottom-text {
     color: rgb(131, 129, 129); 
+}
+.product-des {
+    color: rgb(131, 129, 129); 
+}
+.product-price {
+    color: rgb(131, 129, 129); 
+}
+.btn-bg-color {
+    background-color: black;
+}
+.pink-section {
+    background-color: #F7A28D;
+    padding: 52px;
+}
+.card-middle-text  {
+    font-family: Futura;
+    /* color: red; */
+}
+.card-text p {
+    color: #9F5846;
+    font-size: small;
 }
